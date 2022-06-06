@@ -43,7 +43,6 @@ else
 endif
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_KERNEL):kernel \
     $(LOCAL_PATH)/prebuilt/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
     $(LOCAL_PATH)/prebuilt/lib/modules/blocklayoutdriver.ko:system/lib/modules/blocklayoutdriver.ko \
     $(LOCAL_PATH)/prebuilt/lib/modules/dhd.ko:system/lib/modules/dhd.ko \
