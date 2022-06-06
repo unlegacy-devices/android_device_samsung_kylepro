@@ -22,8 +22,7 @@ TARGET_OTA_ASSERT_DEVICE := kylepro,S7580,GT-S7580,hawaii
 BOARD_KERNEL_CMDLINE :=
 BOARD_KERNEL_BASE := 0x82000000
 BOARD_KERNEL_PAGESIZE := 4096
-TARGET_KERNEL_CONFIG := bcm21664_hawaii_ss_kylepro_rev00_defconfig
-TARGET_KERNEL_SOURCE := kernel/samsung/kylepro
+TARGET_PREBUILT_KERNEL := device/samsung/kylepro/prebuilt/zImage
 
 # Partition sizes
 BOARD_BOOTIMAGE_PARTITION_SIZE 	   := 8388608
