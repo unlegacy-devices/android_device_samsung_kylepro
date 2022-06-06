@@ -1,1 +1,2 @@
-add_lunch_combo cm_kylevess-userdebug
+add_lunch_combo cm_kylepro-eng
+add_lunch_combo cm_kylepro-userdebug
